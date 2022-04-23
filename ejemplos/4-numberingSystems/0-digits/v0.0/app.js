@@ -1,6 +1,7 @@
 const { Console } = require("./console");
 
 const console = new Console();
+
 let number = console.readNumber(`Dame un número entero: `);
 const ones = number % 10;
 number = number - ones;
